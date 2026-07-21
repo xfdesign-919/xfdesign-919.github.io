@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Xander Dempster</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <div class="brand"><a href="index.html">Xander Dempster</a></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="container" style="padding-top: 48px;">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Onestep</h3>
+    <div class="stack">Swift, SwiftUI, Apple Family Controls API</div>
+    <p>
+      Onestep is an iOS app I designed and built solo to interrupt compulsive screen time
+      through small moments of friction rather than blunt-force blocking. Instead of simply
+      locking an app, Onestep asks the user to clear a short challenge first, giving them a
+      real moment to decide whether they actually want to open it. Building it meant working
+      through Apple's Family Controls and DeviceActivity frameworks, resolving persistent
+      SwiftData state bugs, and iterating through several rounds of beta testing to land on an
+      approach that actually changed behavior instead of just adding friction for its own sake.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>M.B.A.S. &mdash; Morning Briefing Automation System</h3>
+    <div class="stack">Python, Bash, JavaScript, OAuth 2.0</div>
+    <p>
+      A fully automated macOS system that builds and delivers a personalized morning briefing
+      using launchd scheduling, bash orchestration, and Python. It pulls from the Google
+      Calendar API and the Open-Meteo weather API into a custom HTML/CSS/JS dashboard. Most of
+      the actual engineering work here was less about writing new code and more about directing
+      and pressure-testing AI-generated code, catching subtle bugs, and rebuilding pieces that
+      looked right but didn't actually work.
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h3>MountSQL Hospital Database System</h3>
+    <div class="stack">MySQL, ER Modeling</div>
+    <p>
+      A normalized relational database designed to modernize hospital recordkeeping across
+      departments, physicians, patients, and procedures. The project involved modeling complex
+      many-to-many relationships, such as physician training assignments and nurse scheduling,
+      using junction tables, and resulted in a full schema of 10+ interrelated tables supporting
+      efficient querying of medical records and appointment history.
+    </p>
+  </div>
+
+</section>
+
+<footer>
+  <div class="container">
+    &copy; 2026 Xander Dempster &middot; Built for ENGL 202D, Project 4
+  </div>
+</footer>
+
+</body>
+</html>
